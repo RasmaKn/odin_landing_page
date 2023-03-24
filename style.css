@@ -15,6 +15,10 @@ body {
   font-weight: bold;
   align-items: center;
   font-size: 32px;
+  border: 0px;
+  margin: 0px;
+  padding-left: 20px;
+  padding-right;
 }
 
 ul {
