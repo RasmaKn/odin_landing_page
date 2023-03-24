@@ -32,17 +32,28 @@ ul {
 
 .one {
   display: flex;
+  flex-direction: row;
   background: white;
   height: 250 px;
 
 }
 
+.one-left {
+  display: flex;
+  flex-direction: column;
+  
+}
+
 .two {
   display: flex;
-  background-image: linear-gradient(yellow, white);
+  background-image: linear-gradient(#fbcd50, white);
 }
 
 .four {
   display: flex;
-  background: yellow;
+  background: #fbcd50;
+}
+
+footer {
+  background-color: #b4efe7;
 }
