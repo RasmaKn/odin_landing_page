@@ -4,24 +4,22 @@ body {
   font-family: -apple-system;
   border: 0px;
   margin: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
-  background-size: cover;
-  background-clip: padding-box;
 }
 
-
+.container {
+  background-color: #E5E7EB;
+}
 
 .header {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  background: #E5E7EB;
   height: 72px;
   font-weight: bold;
   align-items: center;
   font-size: 32px;
-
+  margin-left: 20px;
+  margin-right; 20px;
 }
 
 ul {
