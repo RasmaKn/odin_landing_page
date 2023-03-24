@@ -2,6 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   font-family: -apple-system;
+  padding-left: 20px;
+  padding-right: 20px;
 
 
 }
@@ -17,8 +19,6 @@ body {
   font-size: 32px;
   border: 0px;
   margin: 0px;
-  padding-left: 20px;
-  padding-right: 20px;
 }
 
 ul {
