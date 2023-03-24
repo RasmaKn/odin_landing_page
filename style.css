@@ -2,12 +2,10 @@ body {
   display: flex;
   flex-direction: column;
   font-family: -apple-system;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding-left: 0px;
+  padding-right: 0px;
   border: 0px;
   margin: 0px;
-
-
 }
 
 .header {
@@ -19,8 +17,7 @@ body {
   font-weight: bold;
   align-items: center;
   font-size: 32px;
-  border: 0px;
-  margin: 0px;
+
 }
 
 ul {
