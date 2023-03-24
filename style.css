@@ -30,3 +30,13 @@ ul {
   height: 250 px;
 
 }
+
+.two {
+  display: flex;
+  background: #ADD8E6;
+}
+
+.four {
+  display: flex;
+  background: #6186D8;
+}
