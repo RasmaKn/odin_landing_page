@@ -41,7 +41,15 @@ ul {
 .one-left {
   display: flex;
   flex-direction: column;
-  
+
+}
+
+img {
+  height: 100 px;
+  width: 140 px;
+  border: 1px;
+  border-color: #b4efe7;
+  border-radius: 2%;  
 }
 
 .two {
