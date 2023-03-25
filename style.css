@@ -29,10 +29,15 @@ ul {
   gap: 10px;
 }
 
+.container-one {
+  height: 450px;
+}
 
 .one {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
   background: white;
   height: 250 px;
   margin-left: 20px;
