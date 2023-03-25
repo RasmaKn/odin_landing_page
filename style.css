@@ -35,6 +35,8 @@ ul {
   flex-direction: row;
   background: white;
   height: 250 px;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 
@@ -45,21 +47,37 @@ ul {
 }
 
 img {
-  width: 150px;
+  width: 300px;
   height: auto;
   border: 1px;
   border-color: #b4efe7;
   border-radius: 5%;
 }
 
+.container-two {
+  background-image: linear-gradient(#fbcd50, white);
+}
+
 .two {
   display: flex;
-  background-image: linear-gradient(#fbcd50, white);
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.three {
+  display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
+
+}
+
+.container-three {
+  background: #fbcd50;
 }
 
 .four {
   display: flex;
-  background: #fbcd50;
+
 }
 
 footer {
