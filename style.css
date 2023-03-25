@@ -64,15 +64,30 @@ img {
   margin-right: 20px;
 }
 
+.container-three {
+  height: 300px;
+}
+
 .three {
   display: flex;
+  flex-direction: column;
+  justify-content: center;
   margin-left: 20px;
   margin-right: 20px;
 
 }
 
-.container-three {
-  background: #fbcd50;
+.quote {
+  font-size: 20;
+  font-style: italic;
+}
+
+.author {
+  font-size: 14;
+}
+
+.container-four {
+  background-color: #fbcd50;
 }
 
 .four {
@@ -87,5 +102,7 @@ img {
 }
 
 footer {
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
