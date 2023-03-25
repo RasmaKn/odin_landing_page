@@ -65,6 +65,8 @@ img {
 }
 
 .container-three {
+  display: flex;
+  justify-content: center;
   height: 300px;
 }
 
@@ -78,12 +80,12 @@ img {
 }
 
 .quote {
-  font-size: 20;
+  font-size: 3em;
   font-style: italic;
 }
 
 .author {
-  font-size: 14;
+  font-size: 2em;
 }
 
 .container-four {
