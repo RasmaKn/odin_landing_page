@@ -77,9 +77,15 @@ img {
 
 .four {
   display: flex;
+  margin-left: 20px;
+  margin-right: 20px;
 
 }
 
-footer {
+.container-footer {
   background-color: #b4efe7;
+}
+
+footer {
+
 }
