@@ -31,7 +31,8 @@ ul {
 
 .container-one {
   display: flex;
-  height: 400px;
+  height: 350px;
+  justify-content: space-between;
 }
 
 .one {
@@ -54,7 +55,7 @@ ul {
   background-color: #fbcd50;
   color: white;
   border-radius: 10%;
-  width: 50px;
+  width: 58px;
 }
 
 img {
