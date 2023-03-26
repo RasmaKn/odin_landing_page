@@ -53,9 +53,17 @@ ul {
 
 .button {
   background-color: #fbcd50;
-  color: white;
   border-radius: 10%;
   width: 58px;
+  height: auto;
+  width: auto;
+  margin: 10 px;
+}
+
+.button:hover{
+  color: white;
+  background-color: #b4efe7;
+  transition: 0.5s;
 }
 
 img {
