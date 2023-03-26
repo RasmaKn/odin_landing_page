@@ -31,14 +31,13 @@ ul {
 
 .container-one {
   height: 400px;
-  align-items: center;
 }
 
 .one {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-content: center;
   background: white;
   margin-left: 20px;
   margin-right: 20px;
