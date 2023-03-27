@@ -63,7 +63,7 @@ ul {
   border: 0px;
 }
 
-.button:hover{
+.button-one:hover{
   color: white;
   background-color: #b4efe7;
   transition: 0.5s;
