@@ -69,7 +69,7 @@ ul {
   transition: 0.5s;
 }
 
-img {
+.image-one {
   width: 300px;
   height: auto;
   border: 1px;
@@ -78,13 +78,38 @@ img {
 }
 
 .container-two {
+  display: flex;
   background-image: linear-gradient(#fbcd50, white);
+  height: 400px;
 }
 
 .two {
   display: flex;
+  flex-direction: column;
   margin-left: 20px;
   margin-right: 20px;
+}
+
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.image-two {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+}
+
+.picture-two {
+  width: 200px;
+  height: 200px;
+  border-radius: 5%;
+}
+
+.description-image {
+  flex-wrap: wrap;
 }
 
 .container-three {
