@@ -31,16 +31,17 @@ ul {
 
 .container-one {
   display: flex;
+  justify-content: center;
   height: 350px;
-  justify-content: space-between;
+
 }
 
 .one {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
-  background: white;
+  width: 1000px;
   margin-left: 20px;
   margin-right: 20px;
 
@@ -79,13 +80,15 @@ ul {
 
 .container-two {
   display: flex;
+  justify-content: center;
   background-image: linear-gradient(#fbcd50, white);
-  height: 400px;
+  height: 450px;
 }
 
 .two {
   display: flex;
   flex-direction: column;
+  width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
 }
@@ -93,7 +96,7 @@ ul {
 .images {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 .image-two {
@@ -134,6 +137,8 @@ ul {
 
 .author {
   font-size: 2em;
+  display: flex;
+  justify-content: flex-end;
 }
 
 .container-four {
