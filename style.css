@@ -59,9 +59,11 @@ ul {
   border-radius: 10%;
   height: 70px;
   width: 150px;
-  margin: 10 px;
+  padding: 10 px;
   font-size: 2em;
   border: 0px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .button-one:hover {
@@ -188,6 +190,7 @@ ul {
   color: black;
   border: 0px;
   border-radius: 10%;
+  padding: 5px;
   margin: 5px;
   height: 50px;
   width: 120px;
@@ -198,6 +201,26 @@ ul {
   color: white;
   background-color: #39372B;
   transition: 0.5s;
+}
+
+.vidlink:link {
+  text-decoration: none;
+  color: black;
+}
+
+.vidlink:visited {
+  text-decoration: none;
+  color: black;
+}
+
+.vidlink:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.vidlink:active {
+  text-decoration: none;
+  color: white;
 }
 
 .container-footer {
@@ -211,21 +234,21 @@ footer {
   justify-content: center;
 }
 
-a:link {
+.odinlink:link {
   text-decoration: none;
   color: black;
 }
 
-a:visited {
+.odinlink:visited {
   text-decoration: none;
 }
 
-a:hover {
+.odinlink:hover {
   text-decoration: underline;
   color: black;
 }
 
-a:active {
+.odinlink:active {
   text-decoration: underline;
   color: black;
 }
