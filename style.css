@@ -63,7 +63,7 @@ ul {
   border: 0px;
 }
 
-.button-one:hover{
+.button-one:hover {
   color: white;
   background-color: #b4efe7;
   transition: 0.5s;
@@ -137,14 +137,46 @@ ul {
 }
 
 .container-four {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #fbcd50;
+  height: 200px;
 }
 
 .four {
   display: flex;
   margin-left: 20px;
   margin-right: 20px;
+}
 
+.box {
+  display: flex;
+  height: 160px;
+  border-style: solid;
+  border-color: #b4efe7;
+  border-radius: 5%;
+}
+
+.four-left {
+  display: flex;
+  flex-direction: column;
+}
+
+.button-two {
+  background-color: #b4efe7;
+  color: white;
+  border: 0px;
+  border-radius: 10%;
+  margin: 5px;
+  height: 50px;
+  width: 120px;
+}
+
+.button-two:hover {
+  color: white;
+  background-color: #39372B;
+  transition: 0.5s;
 }
 
 .container-footer {
