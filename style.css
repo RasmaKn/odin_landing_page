@@ -32,7 +32,7 @@ ul {
 .container-one {
   display: flex;
   justify-content: center;
-  height: 400px;
+  height: auto;
 
 }
 
@@ -42,9 +42,7 @@ ul {
   justify-content: space-around;
   align-items: center;
   width: 1000px;
-  margin-left: 20px;
-  margin-right: 20px;
-
+  margin: 20px;
 }
 
 .one-left {
@@ -85,7 +83,7 @@ ul {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(#fbcd50, white);
-  height: 550px;
+  height: auto;
 }
 
 .two {
@@ -93,9 +91,8 @@ ul {
   flex-direction: column;
   justify-content: center;
   width: 1200px;
-  margin-left: 20px;
-  margin-right: 20px;
-  height: 550px;
+  margin: 20px;
+  height: auto;
 }
 
 .headline-two {
@@ -161,13 +158,12 @@ ul {
   justify-content: center;
   align-items: center;
   background-color: #fbcd50;
-  height: 250px;
+  height: auto;
 }
 
 .four {
   display: flex;
-  margin-left: 20px;
-  margin-right: 20px;
+  margin: 40px;
 }
 
 .box {
