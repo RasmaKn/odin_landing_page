@@ -82,15 +82,24 @@ ul {
   display: flex;
   justify-content: center;
   background-image: linear-gradient(#fbcd50, white);
-  height: 450px;
+  height: 550px;
 }
 
 .two {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   width: 1200px;
   margin-left: 20px;
   margin-right: 20px;
+  height: 550px;
+}
+
+.headline-two {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.5em;
 }
 
 .images {
@@ -108,7 +117,10 @@ ul {
 .picture-two {
   width: 200px;
   height: 200px;
+  border: 5px;
   border-radius: 5%;
+  border-style: solid;
+  border-color: #b4efe7;
 }
 
 .description-image {
@@ -195,5 +207,6 @@ ul {
 footer {
   margin-left: 20px;
   margin-right: 20px;
-
+  display: flex;
+  justify-content: center;
 }
